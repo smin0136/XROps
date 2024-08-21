@@ -1,0 +1,26 @@
+{
+  "data": {
+    "url": "lebron.json"
+  },
+  "mark": "cube",
+  "encoding": {
+    "x": {
+      "field": "x",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "attempts",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "viridis"
+      }
+    },
+    "height": {
+      "field": "made",
+      "type": "quantitative"
+    },
+    "yoffsetpct": {
+      "value":  -0.5
+    }
+  }
+}

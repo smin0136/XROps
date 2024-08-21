@@ -1,0 +1,37 @@
+{
+  "data": {
+    "url": "lebron.json"
+  },
+  "mark": "sphere",
+  "encoding": {
+    "x": {
+      "field": "x",
+      "type": "quantitative"
+    },
+    "z": {
+      "field": "y",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "attempts",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "viridis"
+      }
+    },
+    "size": {
+      "field": "made",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          50,
+          80
+        ],
+        "range": [
+          10,
+          20
+        ]
+      }
+    }
+  }
+}

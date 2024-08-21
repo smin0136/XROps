@@ -1,0 +1,18 @@
+{
+  "id": "2",
+  "data": {
+    "url": "cars.json"
+  },
+  "mark": "cube",
+  "encoding": {
+    "x": {
+      "field": "Horsepower",
+      "type": "quantitative"
+
+    },
+    "y": {
+      "field": "Acceleration",
+      "type": "quantitative"
+    }
+  }
+}

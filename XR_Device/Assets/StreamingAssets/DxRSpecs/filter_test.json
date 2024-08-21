@@ -1,0 +1,42 @@
+{
+  "data": {
+    "url": "cars.json"
+  },
+  "mark": "cube",
+  "encoding": {
+    "color": {
+      "field": "Origin",
+      "type": "nominal",
+      "legend": {
+        "filter": true
+      }
+    },
+    "x": {
+      "field": "Horsepower",
+      "type": "quantitative",
+      "scale": {
+        "domain": [ 0, 250 ]
+      },
+      "axis": {
+        "filter": true
+      }
+    },
+    "y": {
+      "field": "Miles_per_Gallon",
+      "type": "quantitative",
+      "scale": {
+        "domain": [ 0, 50 ]
+      }
+    }
+  },
+  "interaction": [
+    {
+      "type": "toggleFilter",
+      "field": ""
+    },
+    {
+      "type": "thresholdFilter",
+      "field": "Displacement"
+    }
+  ]
+}

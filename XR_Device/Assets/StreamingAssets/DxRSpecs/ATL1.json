@@ -1,0 +1,37 @@
+{
+  "data": {
+    "url": "ATL.csv"
+  },
+  "mark": "sphere",
+  "encoding": {
+    "x": {
+      "field": "x",
+      "type": "quantitative"
+    },
+    "z": {
+      "field": "y",
+      "type": "quantitative"
+    },
+    "size": {
+      "field": "made",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          30
+        ],
+        "range": [
+          10,
+          100
+        ]
+      }
+    },
+    "color": {
+      "field": "attempts",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "viridis"
+      }
+    }
+  }
+}

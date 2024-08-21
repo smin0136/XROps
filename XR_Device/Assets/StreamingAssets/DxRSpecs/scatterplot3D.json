@@ -1,0 +1,22 @@
+{
+  "id":  "1",
+  "data": {
+    "url": "cars.json"
+  },
+  "mark": "cube",
+  "encoding": {
+    "x": {
+      "field": "Horsepower",
+      "type": "coordinate"
+
+    },
+    "y": {
+      "field": "Miles_per_Gallon",
+      "type": "coordinate"
+    },
+    "z": {
+      "field": "Acceleration",
+      "type": "coordinate"
+    }
+  }
+}

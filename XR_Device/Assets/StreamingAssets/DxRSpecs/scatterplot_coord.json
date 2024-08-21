@@ -1,0 +1,82 @@
+{
+  "data": {
+    "url": "inline",
+    "values": [
+      {
+        "keyword": 1,
+        "count": 1,
+        "acc": 3
+      },
+      {
+        "keyword": 1,
+        "count": 1,
+        "acc": 3
+      },
+      {
+        "keyword": 2,
+        "count": 2,
+        "acc": 3
+      },
+      {
+        "keyword": 3,
+        "count": 3,
+        "acc": 3
+      },
+      {
+        "keyword": 4,
+        "count": 4,
+        "acc": 3
+      },
+      {
+        "keyword": 5,
+        "count": 5,
+        "acc": 3
+      },
+      {
+        "keyword": 6,
+        "count": 6,
+        "acc": 3
+      },
+      {
+        "keyword": 7,
+        "count": 7,
+        "acc": 3
+      },
+      {
+        "keyword": 8,
+        "count": 8,
+        "acc": 3
+      },
+      {
+        "keyword": 9,
+        "count": 9,
+        "acc": 3
+      },
+      {
+        "keyword": 20,
+        "count": 20,
+        "acc": 3
+      }
+
+    ],
+    "faces": [ 1, 2, 3, 4 ]
+  },
+  "mark": "mesh",
+  "encoding": {
+    "x": {
+      "field": "keyword",
+      "type": "coordinate",
+      "axis": "none"
+    },
+    "y": {
+      "field": "count",
+      "type": "coordinate",
+      "axis": "none"
+    },
+    "z": {
+      "field": "acc",
+      "type": "coordinate",
+      "axis": "none"
+    }
+  }
+}
