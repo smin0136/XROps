@@ -1,0 +1,126 @@
+.explorer .rs-modal-content{
+    background-color: #000000d1;
+}
+
+.left-panel{
+    width: 300px;
+    height: 80vh;    
+    background-color: rgb(50,50,50);
+    margin-right: 30px;
+    border-radius: 20px / 20px;
+    overflow: auto;
+}
+
+.middle-panel{
+    width: 50%;
+    height: 80vh;    
+    background-color: rgb(50,50,50);
+    margin-right: 30px;
+    border-radius: 20px / 20px;
+    overflow: auto;
+    resize: horizontal;
+}
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 300px);
+    overflow: auto;
+}
+
+.preview-panel{
+    width: 100%;
+    height: calc(40vh - 15px);    
+    background-color: rgb(255, 220, 188);
+    border-radius: 20px / 20px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.metadata-panel{
+    width: 100%;
+    height: calc(40vh - 15px);    
+    background-color: rgb(50,50,50);
+    border-radius: 20px / 20px;
+    overflow: auto;
+    padding: 15px;
+}
+
+.list-panel{
+    height: 100px;
+}
+
+folder-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+folder-list::before {
+    content:"";
+    display: block;
+    position: absolute;
+    width:1px;
+    height: 100%;
+    background-color: #cccccc;
+    top:0px;
+    left:15px;
+}
+
+.folder-text{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.file-snapshot{
+    background-color: #000000;
+    // background-image: url('/wsi.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10px / 10px;
+    width: 100px;
+    padding-top: 100px;
+}
+.selected{
+    border-color: #ffae00 !important;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.file-text{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+file-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 140px);
+    gap: 20px;  
+    padding: 10px;
+}
+
+.metadata-panel ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.metadata-panel  li {
+    padding-left: 16px;
+}
+
+.metadata-panel li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: rgb(255, 255, 255); /* Or a color you prefer */
+}
+
+.annotation-panel{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px / 20px;
+    padding: 10px;
+}

@@ -1,0 +1,391 @@
+.rete {
+  width: 100vw;
+  height: 100vh;
+  background-color: #131313;
+  opacity: 1;
+  background-image: linear-gradient(#242424 2px, transparent 2px),
+    linear-gradient(90deg, #242424 2px, transparent 2px),
+    linear-gradient(#242424 1px, transparent 1px),
+    linear-gradient(90deg, #242424 1px, #131313 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.node .title {
+  color: #ffffff !important;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.node {
+  color: black !important;
+  border-radius: 10px !important;
+  border: none !important;
+  background-color: #3b3b3b !important;
+  box-shadow: 2px 4px 8px rgb(0, 0, 0) !important;
+}
+.node:hover {
+  color: black !important;
+  border-radius: 10px !important;
+  border: none !important;
+  background-color: #2d2f35 !important;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0) !important;
+}
+.node:active {
+  color: black !important;
+  border-radius: 10px !important;
+  border: 3px solid #4d79ff !important;
+  background-color: #2d2f35 !important;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0) !important;
+}
+
+.connection .main-path {
+  stroke-width: 3px !important;
+  stroke: #4d79ff !important;
+  filter: drop-shadow(0.35rem 0.35rem 0.2rem rgba(0, 0, 0, 0.5)) !important;
+}
+
+.socket {
+  border-radius: 4px !important;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.output {
+  border-radius: 14px !important;
+}
+.search {
+  background-color: rgb(66, 66, 66) !important;
+  border: 0px !important;
+}
+.search input {
+  background-color: rgb(66, 66, 66) !important;
+  border: 0px !important;
+}
+.item {
+  background-color: rgb(24, 24, 24) !important;
+  border: 0px !important;
+}
+.item:hover {
+  background-color: rgb(37, 37, 37) !important;
+  border: 0px !important;
+}
+
+input {
+  border-radius: 50px !important;
+  border-width: 0px !important;
+  padding: 3px !important;
+}
+select {
+  border-radius: 50px !important;
+  border-width: 0px !important;
+  padding: 3px !important;
+}
+
+.rete .whole-slide-image{
+  background-color: #5f2bb37e !important;
+  width: 250px !important;
+}
+.rete .cell-plate-data{
+  background-color: #5f2bb37e !important;
+}
+
+
+.rete .viewer{
+  background-color: #eb372677 !important;
+}
+
+.rete .interactive-viewer{
+  background-color: #eb372671 !important;
+}
+
+
+.rete .blend-viewer{
+  background-color: #eb372671 !important;
+}
+
+.rete .cell-plate-viewer{
+  background-color: #eb372671 !important;
+}
+
+.rete .dl-\(fatty-liver\){
+  background-color: #f5b00085 !important;
+}
+.rete .dl-\(forground-mask\){
+  background-color: #f5b00085 !important;
+}
+.rete .cell-density-feature{
+  background-color: #f5b00085 !important;
+}
+
+.rete .roi-selector{
+  background-color: #eb372671 !important;
+}
+
+.rete .save{
+  background-color: #5f2bb37e !important;
+  width: 210px;
+}
+
+
+.rete .save .textEdit {
+  width: 120px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.rete .context-menu {
+  width: 200px !important;
+}
+
+.rete .context-menu .item {
+  width: 180px !important;
+}
+
+
+.rete .xr-open-server{
+  background-color: #5f2bb37e !important;
+  width: 210px;
+}
+
+.rete .xr-device-connector{
+  background-color: #ff23ff7e !important;
+  width: 280px;
+}
+
+.rete .xr-input{
+  background-color: #ff23ff7e !important;
+}
+
+.rete .taking-sensor-data{
+  background-color: #2356ff7e !important;
+  width: 400px;
+}
+
+.rete .depth-to-point-cloud{
+  background-color: #2356ff7e !important;
+}
+
+.rete .gesture-setting{
+  background-color: #ff23ff7e !important;
+}
+.rete .sensor-setting{
+  background-color: #ff23ff7e !important;
+}
+.rete .send-point-cloud{
+  background-color: #00fd947e !important;
+}
+
+.rete .visual-encoding{
+  background-color: #2356ff7e !important;
+  width: 450px;
+}
+
+.rete .data-file{
+  background-color: #ff23ff7e !important;
+  width: 300px;
+}
+.rete .image-file{
+  background-color: #ff23ff7e !important;
+  width: 300px;
+}
+
+.rete .visualization{
+  background-color: #00fd947e !important;
+}
+.rete .data-storage{
+  background-color: #ff23ff7e !important;
+  width: 400px;
+}
+
+
+.rete .xr-visualization{
+  background-color: #00fd947e !important;
+  width: 350px;
+}
+
+
+.rete .xr-visualization .textEdit{
+  width: 50px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.rete .xr-visualization .pos-text{
+  width: 50px !important;
+  font-size: 12px;
+  font-weight: 700;
+  margin: auto;
+  margin-right: 10px;
+  color: white;
+}
+
+.rete .marker-tracking .textEdit{
+  width: 50px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.rete .marker-tracking .pos-text{
+  width: 50px !important;
+  font-size: 12px;
+  font-weight: 700;
+  margin: auto;
+  margin-right: 10px;
+  color: white;
+}
+
+
+
+.rete .api-data{
+  background-color: #ff23ff7e !important;
+  width: 300px;
+}
+
+
+.rete .face-detection{
+  background-color: #2356ff7e !important;
+}
+.rete .image-to-point-data{
+  background-color: #2356ff7e !important;
+}
+
+
+.rete .region-selection .textEdit{
+  width: 50px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rete .region-selection .pos-text{
+  width: 50px !important;
+  font-size: 15px;
+  font-weight: 700;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+.rete .region-selection{
+  background-color: #2356ff7e !important;
+  width: 250px;
+}
+
+
+.rete .volume-file{
+  background-color: #ff23ff7e !important;
+  width: 300px;
+}
+
+.rete .iso-surfacing{
+  background-color: #2356ff7e !important;
+  width: 250px;
+}
+
+.rete .volume-to-point-data{
+  background-color: #2356ff7e !important;
+}
+
+.rete .outlier-removing{
+  background-color: #2356ff7e !important;
+}
+.rete .curvature-calculation{
+  background-color: #2356ff7e !important;
+}
+.rete .data-filtering{
+  background-color: #2356ff7e !important;
+}
+
+
+.rete .data-filtering .textEdit{
+  width: 50px !important;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rete .data-filtering .pos-text{
+  width: 20px !important;
+  font-size: 15px;
+  font-weight: 700;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.rete .icp-\(point-registration\){
+  background-color: #2356ff7e !important;
+}
+.rete .point-transform{
+  background-color: #2356ff7e !important;
+}
+
+.rete .mixed-reality-view{
+  background-color: #00fd947e !important;
+}
+
+.rete .info-vis-2d{
+  background-color: #00fd947e !important;
+}
+.rete .vis-linking{
+  background-color: #2356ff7e !important;
+}
+
+.rete .depth-to-position{
+  background-color: #2356ff7e !important;
+}
+.rete .custom-processing{
+  width: 450px;
+  background-color: #2356ff7e !important;
+}
+
+.rete .ai-face-detection{
+  background-color: #2356ff7e !important;
+}
+
+.rete .ai-face-registration{
+  background-color: #2356ff7e !important;
+}
+
+.rete .get-spatial-position{
+  background-color: #2356ff7e !important;
+  width: 250px;
+}
+
+.rete .find-volume-roi{
+  background-color: #2356ff7e !important;
+  width: 250px;
+}
+
+.rete .volume-iso-surface{
+  background-color: #2356ff7e !important;
+  width: 250px;
+}
+
+.rete .marker-tracking{
+  background-color: #f5b00085 !important;
+  width: 280px;
+}
+.rete .gesture-recognition{
+  background-color: #f5b00085 !important;
+  width: 200px;
+}
+.rete .object-regcognition{
+  background-color: #f5b00085 !important;
+  width: 200px;
+}
+.rete .world-positioning{
+  background-color: #f5b00085 !important;
+  width: 200px;
+}
+.rete .generate-spatial-anchor{
+  background-color: #f5b00085 !important;
+  width: 250px;
+}

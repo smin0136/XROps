@@ -1,0 +1,43 @@
+#viewerContainer {
+  text-align: center;
+}
+#viewerToolbar {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.toolbarItem {
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 10px;
+  background-color: #32383d;
+  color: white;
+}
+.toolbarItem:hover {
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 10px;
+  background-color: #697682;
+  color: white;
+}
+
+.dataName{
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 700;
+}
+
+#openSeaDragon {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.additionalValue{
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(0,0,255);
+}
