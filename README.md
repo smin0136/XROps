@@ -18,7 +18,6 @@
 It bridges **XR authoring**, **data processing**, and **interactive analysis** —  
 enabling domain experts to build, visualize, and manage immersive workflows **without low-level coding**.
 
-> 🧠 Designed for hybrid analysis — seamlessly connecting 2D desktop authoring and immersive XR environments.
 
 <p align="center">
   <img src="assets/overview.png" width="85%" alt="System overview">
@@ -31,7 +30,6 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 - 🧠 **Visual Programming Environment** — node-based design for task abstraction  
 - 🌍 **Hybrid Collaboration** — synchronize 2D authoring ↔ XR visualization  
 - 🧮 **Scientific Data Support** — handle volumetric, sensor, and streaming data  
-- 🤝 **XR Interaction Layer** — hand gestures, air-tap, and spatial selections
 
 ---
 
@@ -40,9 +38,9 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
   <img src="assets/architecture.png" width="80%" alt="System architecture">
 </p>
 
-- **Front-End:** WebXR + React + Rete.js (node-based visual authoring)  
-- **Back-End:** Python FastAPI for data processing  
-- **XR Rendering:** Unity / WebXR runtime with real-time sensor integration  
+- **Front-End:** React + Rete.js (node-based visual authoring)  
+- **Back-End:** Python FastAPI 
+- **XR Rendering:** Unity
 
 ---
 
@@ -56,24 +54,29 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 ---
 
 ## 🎥 Demo
-- 🌐 [**Live Demo**](https://vience.io/xrops)
-- 🎬 Sample walkthroughs and user interactions (gesture-based ROI selection, volume rendering)
-
+- 🎬 [**Live Demo**]
+-  Sample walkthroughs our framework and 4 casestudies.
 <p align="center">
   <img src="assets/demo.gif" width="75%" alt="Demo preview">
 </p>
 
+- 🌐 [**Platform**] (https://vience.io/xrops)
+- 📂 [**DEMO Doc**] (https://sites.google.com/view/xrops)
+- For hands-on experience, you can download the `.appx` package from the provided [**DEMO Doc**] link (Tutorial/How to Start) or [**google drive link**] below and explore the demonstrations outlined in our publication, with the access code **demo1**, **demo2**, **demo3**, and **demo4**.
+
+[**appx**] https://drive.usercontent.google.com/download?id=1d0nobBXIAhyOVOxR4uIX8jE-VLxiy2OF&export=download&authuser=0
+
 ---
 
 ## 📂 Repository Structure
-
+```bash
 xrops/
 ├── backend/ # FastAPI data interface
 ├── frontend/ # React + Rete.js node editor
 ├── xr/ # WebXR / Unity integration
 ├── examples/ # Sample IA workflows
 └── docs/ # Paper figures and supplementary materials
-
+```bash
 
 ---
 
@@ -91,9 +94,10 @@ python main.py
 
 # Launch frontend
 npm run dev
+```bash
 
 
-💬 Citation
+## 💬 Citation
 
 If you find this work useful, please cite:
 
