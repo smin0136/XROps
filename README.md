@@ -17,7 +17,7 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 
 
 <p align="center">
-  <img src="assets/system_architecture.jpg" width="85%" alt="System overview">
+  <img src="assets/teaser.jpg" width="85%" alt="System overview">
 </p>
 
 ---
@@ -32,7 +32,7 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 
 ## 🖥️ System Architecture
 <p align="center">
-  <img src="assets/architecture.png" width="80%" alt="System architecture">
+  <img src="assets/system_architecture.jpg" width="80%" alt="System architecture">
 </p>
 
 - **Front-End:** React + Rete.js (node-based visual authoring)  
@@ -51,11 +51,9 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 ---
 
 ## 🎥 Demo
-- 🎬 [**Live Demo**]
+- 🎬 [**Live Demo**] [![Demo Preview](assets/visual_programming.jpg)](assets/xrops_video_0910.mp4)
 -  Sample walkthroughs our framework and 4 casestudies.
-<p align="center">
-  <img src="assets/xrops_video_0910.mp4" width="75%" alt="Demo preview">
-</p>
+
 
 - 🌐 [**Platform**] (https://vience.io/xrops)
 - 📂 [**DEMO Doc**] (https://sites.google.com/view/xrops)
