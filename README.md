@@ -6,9 +6,6 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2507.10043-b31b1b.svg)](https://arxiv.org/abs/2507.10043)
 [![Demo](https://img.shields.io/badge/Demo-xrops-blue.svg)](https://vience.io/xrops)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Project](https://img.shields.io/badge/GitHub-xrops-black?logo=github)](https://github.com/smin0136/xrops)
-
 </div>
 
 ---
@@ -20,7 +17,7 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 
 
 <p align="center">
-  <img src="assets/overview.png" width="85%" alt="System overview">
+  <img src="assets/system_architecture.jpg" width="85%" alt="System overview">
 </p>
 
 ---
@@ -29,7 +26,7 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 - 🧩 **Dynamic Workflow Management** — real-time reconfiguration of analytic pipelines  
 - 🧠 **Visual Programming Environment** — node-based design for task abstraction  
 - 🌍 **Hybrid Collaboration** — synchronize 2D authoring ↔ XR visualization  
-- 🧮 **Scientific Data Support** — handle volumetric, sensor, and streaming data  
+- 🧮 **Diverse Data Support** — handle volumetric, mesh, image, point cloud, tabular, sensor, and streaming data  
 
 ---
 
@@ -57,7 +54,7 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 - 🎬 [**Live Demo**]
 -  Sample walkthroughs our framework and 4 casestudies.
 <p align="center">
-  <img src="assets/demo.gif" width="75%" alt="Demo preview">
+  <img src="assets/xrops_video_0910.mp4" width="75%" alt="Demo preview">
 </p>
 
 - 🌐 [**Platform**] (https://vience.io/xrops)
