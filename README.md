@@ -64,13 +64,10 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 ---
 
 ## 📂 Repository Structure
-```bash
 Server/xrops
-├── client/ # FastAPI data interface
-├── dockerfile/ # React + Rete.js node editor
-└── server/ # WebXR / Unity integration
-
-```bash
+├── client/ # frontend code
+├── dockerfile/ # main, workspace docker
+└── server/ # backend code
 
 ---
 
@@ -106,13 +103,9 @@ https://vience.io:6040  →  http://{own ip}:5040
 npm install
 npm run start:xrops-test # run frontend
 http://117.52.72.212:5030
-
-
-
-
-
 ```bash
 
+---
 
 ## 💬 Citation
 
