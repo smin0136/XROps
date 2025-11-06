@@ -64,14 +64,18 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 ---
 
 ## 📂 Repository Structure
+
+```bash
 Server/xrops
 ├── client/ # frontend code
 ├── dockerfile/ # main, workspace docker
 └── server/ # backend code
+```bash
 
 ---
 
 ## 🛠️ Installation of Server
+
 ```bash
 # Clone the repo
 git clone https://github.com/smin0136/xrops.git
