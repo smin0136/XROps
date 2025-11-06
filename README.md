@@ -65,30 +65,52 @@ enabling domain experts to build, visualize, and manage immersive workflows **wi
 
 ## 📂 Repository Structure
 ```bash
-xrops/
-├── backend/ # FastAPI data interface
-├── frontend/ # React + Rete.js node editor
-├── xr/ # WebXR / Unity integration
-├── examples/ # Sample IA workflows
-└── docs/ # Paper figures and supplementary materials
+Server/xrops
+├── client/ # FastAPI data interface
+├── dockerfile/ # React + Rete.js node editor
+└── server/ # WebXR / Unity integration
+
 ```bash
 
 ---
 
-## 🛠️ Installation (Coming Soon)
+## 🛠️ Installation of Server
 ```bash
 # Clone the repo
 git clone https://github.com/smin0136/xrops.git
-cd xrops
+cd Server\xrops
 
-# Install dependencies
-npm install && pip install -r requirements.txt
+# docker build
+docker build -t {tag}
+
+sh run_mainserver.sh all main_xrops
+
+sh run_workspaceserver.sh workspace_xrops
+
+# run server
+
+run python __main__.py, __workspace__.py inside each docker container 
+
+# test
+
+http://117.52.72.212:5040/docs
+http://117.52.72.212:5050/docs
 
 # Launch backend
 python main.py
 
-# Launch frontend
-npm run dev
+# Frontend
+cd client
+https://vience.io:6040  →  http://{own ip}:5040 
+
+npm install
+npm run start:xrops-test # run frontend
+http://117.52.72.212:5030
+
+
+
+
+
 ```bash
 
 
@@ -97,14 +119,20 @@ npm run dev
 If you find this work useful, please cite:
 
 @article{jeon2025xrops,
-  title={XROps: A Visual Workflow Management Framework for Dynamic Immersive Analytics},
-  author={Jeon, Suemin and Jeong, Won-Ki},
+  title={XROps: A Visual Workflow Management System for Dynamic Immersive Analytics},
+  author={Jeon, Suemin and Choi, JunYoung and Jeong, Haejin and Jeong, Won-Ki},
   journal={IEEE Transactions on Visualization and Computer Graphics},
-  year={2025}
+  year={2025},
+  publisher={IEEE}
 }
 
 🧑‍💻 Acknowledgements
-This research was supported by the Immersive Visualization Lab, Korea University,
+This research was supported by National Research Foundation of Korea (NRF)— RS-2024-00349697, NRF-2021R1A6A1A13044830
+Institute for Information & Communications Technology Planning & Evaluation (IITP)— IITP-2025-RS-2020-II201819
+National Research Council of Science & Technology (NST)— 
+MSIT, GTL24031-900Ministry of SMEs and Startups— Technology Development Program (RS-2024-00437796)
+Korea University Grant
+
 and presented at IEEE VIS 2025.
 
-<div align="center"> <sub>© 2025 Suemin Jeon | Korea University | MIT License</sub> </div> ```
+<div align="center"> <sub>© 2025 Suemin Jeon | Korea University </sub> </div> ```
